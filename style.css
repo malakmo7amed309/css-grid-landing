@@ -1,0 +1,407 @@
+:root{
+    --black: #333333; 
+    --gray: #9FA3A7;
+    --white-bg: #f7f8f9;
+}
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Arvo', sans-serif;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.rotary{
+    text-align: center;
+    padding: 50px;
+    background-color: var(--white-bg);
+}
+.rotary p{
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--gray) ;
+    letter-spacing: 2px;
+}
+.rotary h2{
+    font-size: 40px;
+    font-weight: 400;
+    color: var(--black) ;
+    margin: 20px 0 10px;
+}
+.rotary a{
+    color: #68b7f7;
+}
+.phone .content{
+    width: 70%;
+    margin-inline: auto;
+}
+.phone{
+    padding-top: 50px;
+}
+.phone h2{
+    color: var(--gray);
+    font-size: 12px;
+    font-weight: 700 ;
+    letter-spacing: 2px;
+}
+.phone .first{
+    color: var(--black);
+    font-size: 22px;
+    font-weight: 400;
+    margin: 10px 0 20px;
+}
+.phone .second{
+    color: var(--gray);
+    font-size: 14px;
+    font-weight: 400;
+}
+.phone .img-container{
+    max-width: 270px;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+.keyboard{
+    background-color: #f05638;
+    padding-block: 50px;
+    text-align: center;
+}
+.keyboard .text a{
+    color: #ffc80a;
+    margin-inline: auto;
+    text-decoration: none;
+}
+.keyboard .text h2{
+    color: white;
+}
+.keyboard .img-container{
+    width: 80%;
+    margin-inline: auto;
+}
+.games{
+    background-color: var(--white-bg);
+    padding-block: 50px;
+    text-align: center;
+}
+.games .text a{
+    color: #27b9C2;
+    margin-inline: auto;
+    text-decoration: none;
+}
+.games .text h2{
+    color: var(--black);
+}
+.games .img-container{
+    width: 80%;
+    margin-inline: auto;
+}
+.tv{
+    padding:50px 0 ;
+}
+.tv .text h2{
+    color: var(--gray);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.tv .text p{
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    margin-left: 10px;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.tv .img-container{
+    width: 600px;
+    transform: translateX(-50%);
+    margin: 40px 0;
+}
+.tv , .p p{
+    padding: 20px 0;
+} 
+
+.p p{
+    color: var(--gray);
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.p a{
+    padding-left: 10px;
+    color: #27b9C2;
+    letter-spacing: 2.4px;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.twitter{
+    background-color: #38D5F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0,0,0,0.113);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: auto;
+    color: white;
+    flex-direction: column;
+}
+.twitter .circle img{
+    width: 50px;
+}
+.tab{
+    background-color: #93b6b7;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+.tab .badge{
+    position: absolute;
+    background-color: #fa684f;
+    color: white;
+    top: 20px;
+    left: 20px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 8px;
+    font-weight: 700;
+}
+.tab .img-container{
+    transform: translate(-10%);
+    background-image:url(./images/img10.png) ;
+    background-size: cover ;
+    text-align: center;
+}
+.cloud{
+    background-color: #8f76bc ;
+    padding-block: 50px;
+    text-align: center;
+}
+.cloud .circle{
+    width: 330px;
+    height: 330px;
+    background-color: rgba(0, 0, 0, 0.201);
+    border-radius: 50%;
+    padding-top: 20px;
+    margin-inline: auto;
+}
+.cloud .img-container{
+    width: 70%;
+    margin-inline: auto;
+}
+.cloud .circle .popular{
+    margin-bottom: 10px;
+    background-color: #8b72b6;
+    color: white;
+    width: fit-content;
+    margin-inline: auto;
+    padding: 5px 10px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+.cloud .circle p{
+    margin: 0;
+}
+.cloud .circle .meet{
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}
+.cloud h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px 0 10px;
+    color: white;
+}
+.cloud .p2{
+    font-size: 15px;
+    font-weight: 400;
+    color: white;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.cloud a{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing:2.4px;
+    margin: 30px 0 0;
+    padding: 14px 24px;
+    background-color: #ffc80a ;
+    border-radius: 25px;
+    text-decoration: none;
+    color: var(--black);
+}
+.pop{
+    padding: 50px;
+    text-align: center;
+    position: relative;
+
+    overflow: hidden;
+    padding-top: 50px;
+}
+.pop h2{
+    background-color: #7bc424;
+    color: #fff;
+    position: absolute;
+    padding-top: 120px;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 8px;
+    font-weight: 700;
+    line-height: 20px;
+    transform: translate(200%);
+    letter-spacing: 2px;
+    top: 20px;
+    left: 20px;
+}
+
+
+
+
+.tv2{
+    background-color: var(--black);
+    text-align: center; 
+    overflow: auto;
+    padding-bottom: 20px;
+}
+.tv2 p{
+    font-size: 22px;
+    margin: 10px 0 20px;
+    color: white;
+}
+.tv2 .img-container{
+    width: 70%;
+}
+
+
+
+
+
+@media (min-width: 576px) { 
+  .parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    'rotary rotary'
+    'phone phone'
+    'keyboard games'
+    'tv tv'
+    'twitter cloud'
+    'tab cloud '
+    'pop pop'
+    'tv2 tv2'
+    ;
+  }
+  .rotary{
+    grid-area: rotary;
+  }
+  .phone{
+    grid-area: phone;
+    display: flex;
+    align-items: center;
+    padding: 50px 30px 0 ;
+  }
+  .phone .content{
+    width: 40%;
+  }
+  .keyboard{
+    grid-area: keyboard;
+  }
+  .games{
+    grid-area: games;
+  }
+  .tv{
+    grid-area: tv;
+    display: flex;
+    padding-bottom: 0;
+  }
+  .tv .text, .tv .p{
+    width: 50%;
+  }
+  .tv .text .img-container{
+    width: 500px;
+    margin-bottom: 0;
+  }
+  .tv .text{
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .twitter{
+    grid-area: twitter;
+  }
+  .cloud{
+    grid-area: cloud;
+  }
+  .tab{
+    grid-area: tab;
+    display: flex;
+    flex-direction: column;
+  }
+  .pop{
+    grid-area: pop;
+    padding-block: 20px;
+  }
+  .tv2{
+    grid-area: tv2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .tv2 .img-container{
+    width: 40%;
+  }
+ }
+
+
+@media (min-width: 768px) { 
+
+ }
+
+
+@media (min-width: 992px) { 
+    .parent{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas: 
+        'phone phone rotary rotary'
+        'keyboard tv tv cloud'
+        'games tab tab cloud'
+        'twitter pop tv2 tv2'
+        ;
+      }
+      .tab .img-container{
+        width: 80%;
+        margin-inline: auto;
+      }
+ }
+
+
+@media (min-width: 1200px) { 
+
+ }
+
+
+@media (min-width: 1400px) { 
+
+ }
