@@ -14,6 +14,9 @@ using named grid areas.
 
 ## Features
 
+- Sticky header with section jump links and a light/dark toggle (saved in `localStorage`)
+- Every Learn more / Download link opens an accessible detail dialog (demo text)
+- Keyboard focus styles, skip link, reduced-motion support
 - Asymmetric mosaic layout with `grid-template-areas`
 - Three breakpoints: mobile-first stacked, 2-column tablet, 4-column desktop
 - CSS custom properties for the color palette
@@ -22,6 +25,7 @@ using named grid areas.
 ## Tech stack
 
 - HTML5
+- Vanilla JavaScript (dialog, theme)
 - CSS3 (Grid, custom properties, media queries)
 
 ## Run locally

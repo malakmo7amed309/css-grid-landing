@@ -23,21 +23,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="topbar">
+        <strong>Product Grid</strong>
+        <nav aria-label="Jump to section">
+            <a href="#phone">Phone</a>
+            <a href="#keyboard">Keyboard</a>
+            <a href="#cloud">Cloud</a>
+        </nav>
+        <button id="theme" class="theme-btn" type="button" aria-pressed="false" aria-label="Toggle dark mode">Dark</button>
+    </header>
 
-    <div class="parent">
+    <main id="main" class="parent">
         <div class="rotary">
             <p>LEARN MORE</p>
             <h2>How to Use Rotary Evaporator in Chemical Labs</h2>
-            <a href="#">Download now</a>
+            <a href="#" data-more="rotary">Download now</a>
         </div>
         
 
 
-       <div class="phone">
+       <div class="phone" id="phone">
         <div class="content">
             <h2>IPHONE 6S</h2>
-            <p class="first">3D Touch. 12MP photos. 4K video.One powerful phone</p>
+            <p class="first">3D Touch. 12MP photos. 4K video. One powerful phone</p>
             <p class="second">Learn more or visit an Apple Store today</p>
         </div>
          <div class="img-container">
@@ -46,7 +55,7 @@
        </div>
 
 
-       <div class="keyboard">
+       <div class="keyboard" id="keyboard">
         <div class="img-container">
             <img src="images/img2.png" alt="Brand new keyboard">
         </div>
@@ -54,7 +63,7 @@
             <h2>Our Brand New 
                 <br/>
                 Keyboard</h2>
-            <a href="">LEARN ›</a>
+            <a href="#" data-more="keyboard">LEARN ›</a>
         </div>
        </div>
 
@@ -67,7 +76,7 @@
             <h2>Games
                 <br/>
                 our passion</h2>
-            <a href="">LEARN ›</a>
+            <a href="#" data-more="games">LEARN ›</a>
         </div>
        </div>
 
@@ -82,7 +91,7 @@
          
          <div class="p">
             <p>Apple may be experimenting in the virtual<br> reality space. The company has been <br>granted a patent for a head-mounted<br> virtual reality device that would use the <br>iPhone screen as the display.</p>
-            <a href="">DOWNLOAD NOW ›</a>
+            <a href="#" data-more="imac">DOWNLOAD NOW ›</a>
          </div>
         </div> 
 
@@ -101,7 +110,7 @@
             <div class="badge">
                 BEST CHOICE
             </div>
-            <h2>Much MuchBetter <br>Experience</h2>
+            <h2>Much Better <br>Experience</h2>
             <div class="img-container">
                 <img src="images/img7.png" alt="Tablet with keyboard">
             </div>
@@ -109,7 +118,7 @@
 
 
 
-        <div class="cloud">
+        <div class="cloud" id="cloud">
             <div class="circle">
                 <p class="popular">POPULAR</p>
                 <div class="img-container">
@@ -119,14 +128,14 @@
             </div>
             <h2>iCloud</h2>
             <p class="p2">With iCloud, you always<br> have the latest versions of<br> your most important things<br> — like documents, apps,<br> notes, and contacts — on <br>whatever device you’re <br>using.</p>
-            <a href="">LEARN MORE</a>
+            <a href="#" data-more="cloud">LEARN MORE</a>
         </div>
 
       
         
         <div class="pop">
             <h2>POPULAR</h2>
-            <p>Much MuchBetter Experience</p>
+            <p>Much Better Experience</p>
         </div>
 
 
@@ -138,6 +147,13 @@
             </div>
             <p>More than just a <br>display,  it’s a<br> vision</p>
         </div>
-    </div>
+    </main>
+    <footer class="foot">Layout practice built with CSS Grid. Product names and logos belong to their owners.</footer>
+    <dialog id="more" aria-labelledby="more-title">
+        <h3 id="more-title"></h3>
+        <p id="more-body"></p>
+        <button id="more-close" type="button">Close</button>
+    </dialog>
+    <script src="app.js"></script>
 </body>
 </html>
